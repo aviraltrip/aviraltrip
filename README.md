@@ -2,7 +2,7 @@
 <h3 align="center">A Passionate Frontend Developer crafting modern, responsive, and user-friendly web experiences.</h3>
 
 - 👨‍💻 All of my projects are available at **https://aviral-tripathi.vercel.app/**
-- 📝 I regularly write articles on **https://medium.com/@aviraltripathi25**
+- 📝 I regularly write blogs on **https://medium.com/@aviraltripathi25**
 - 📫 How to reach me: **aviraltripathi25@gmail.com**
 
 ---
