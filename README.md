@@ -2,6 +2,6 @@
 
 **2x Hackathon Winner**
 
-**Tech Stack:** React · Next.js · JavaScript/TypeScript · Node.js · Express.js · Python · FastAPI · C/C++ · LangChain · MongoDB · PostgreSQL
+**Tech Stack:** React · Next.js · JavaScript/TypeScript · Node.js · Express.js · Python · FastAPI · C/C++ · LangChain · MongoDB · PostgreSQL · Docker
 
 **Currently Learning:** Go (Golang)
