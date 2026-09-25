@@ -7,5 +7,9 @@
 **Currently Learning:** Golang
 
 <p align="center">
-  <img src="https://aviraltrip.github.io/aviraltrip/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://aviraltrip.github.io/aviraltrip/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://aviraltrip.github.io/aviraltrip/github-contribution-grid-snake.svg">
+    <img src="https://aviraltrip.github.io/aviraltrip/github-contribution-grid-snake.svg" alt="GitHub contribution snake animation" />
+  </picture>
 </p>
