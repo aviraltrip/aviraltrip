@@ -5,3 +5,7 @@
 **Tech Stack:** React · Next.js · JavaScript/TypeScript · Node.js · Express.js · Python · FastAPI · C/C++ · LangChain · MongoDB · PostgreSQL
 
 **Currently Learning:** Golang
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aviraltrip/aviraltrip/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
