@@ -23,21 +23,21 @@
   </picture>
 </p>
 
-## GitHub Stats
+## 📊 GitHub Stats
 
 <table align="center">
   <tr>
     <td align="center" valign="middle">
       <img
-        src="https://raw.githubusercontent.com/aviraltrip/aviraltrip/main/profile/stats.svg"
+        src="./profile/stats.svg"
         width="400"
         alt="GitHub Stats"
       />
     </td>
 
-    <td align="center" valign="middle" width="120">
+    <td align="center" valign="middle">
       <img
-        src="https://raw.githubusercontent.com/aviraltrip/aviraltrip/main/profile/github-logo.svg"
+        src="./profile/github-logo.svg"
         width="90"
         alt="GitHub"
       />
@@ -45,7 +45,7 @@
 
     <td align="center" valign="middle">
       <img
-        src="https://raw.githubusercontent.com/aviraltrip/aviraltrip/main/profile/top-langs.svg"
+        src="./profile/top-langs.svg"
         width="300"
         alt="Most Used Languages"
       />
