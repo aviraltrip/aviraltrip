@@ -6,6 +6,8 @@
 
 **Currently Learning:** Golang
 
+---
+
 ## GitHub Stats
 
 <p align="center">
@@ -14,13 +16,15 @@
     width="400"
     alt="GitHub Stats"
   />
-  &nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <img
     src="./profile/top-langs.svg"
     width="300"
     alt="Most Used Languages"
   />
 </p>
+
+---
 
 <p align="center">
   <picture>
