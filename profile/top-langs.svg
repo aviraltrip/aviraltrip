@@ -1,249 +1,131 @@
+<svg
+  width="300"
+  height="210"
+  viewBox="0 0 300 210"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="Most Used Languages"
+>
 
-      <svg
-        width="300"
-        height="325"
-        viewBox="0 0 300 325"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        role="img"
-        aria-labelledby="descId"
-      >
-        <title id="titleId"></title>
-        <desc id="descId"></desc>
-        <style>
-          .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #58a6ff;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
-          }
-          @supports(-moz-appearance: auto) {
-            /* Selector detects Firefox */
-            .header { font-size: 15.5px; }
-          }
-          
-    @keyframes slideInAnimation {
-      from {
-        width: 0;
-      }
-      to {
-        width: calc(100%-100px);
-      }
+  <style>
+    .header {
+      font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #58a6ff;
     }
-    @keyframes growWidthAnimation {
-      from {
-        width: 0;
-      }
-      to {
-        width: 100%;
-      }
-    }
-    .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #c9d1d9;
-    }
-    @supports(-moz-appearance: auto) {
-      /* Selector detects Firefox */
-      .stat { font-size:12px; }
-    }
-    .bold { font-weight: 700 }
-    .lang-name {
-      font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
+
+    .lang {
+      font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif;
       fill: #c9d1d9;
     }
-    .stagger {
-      opacity: 0;
-      animation: fadeInAnimation 0.3s ease-in-out forwards;
-    }
-    #rect-mask rect{
-      animation: slideInAnimation 1s ease-in-out forwards;
-    }
-    .lang-progress{
-      animation: growWidthAnimation 0.6s ease-in-out forwards;
-    }
-    .progress-background { fill: #ddd; }
-    
-          
+  </style>
 
-          
-      /* Animations */
-      @keyframes scaleInAnimation {
-        from {
-          transform: translate(-5px, 5px) scale(0);
-        }
-        to {
-          transform: translate(-5px, 5px) scale(1);
-        }
-      }
-      @keyframes fadeInAnimation {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-    
-          
-        </style>
+  <rect
+    x="0"
+    y="0"
+    width="300"
+    height="210"
+    rx="5"
+    fill="#0d1117"
+  />
 
+  <text
+    x="6"
+    y="35"
+    class="header"
+  >Most Used Languages</text>
+
+  <!-- Combined language progress bar -->
+  <rect
+    x="6"
+    y="64"
+    width="288"
+    height="9"
+    rx="5"
+    fill="#30363d"
+  />
+
+  <rect x="6.00" y="64" width="128.03" height="9" fill="#f1e05a" rx="5" ry="5"/><rect x="134.03" y="64" width="80.22" height="9" fill="#3572A5"/><rect x="214.25" y="64" width="34.58" height="9" fill="#3178c6"/><rect x="248.83" y="64" width="10.17" height="9" fill="#563d7c"/><rect x="259.00" y="64" width="9.23" height="9" fill="#00ADD8"/><rect x="268.23" y="64" width="25.77" height="9" fill="#f34b7d"/>
+
+  <!-- Language labels -->
+  
+        <circle
+          cx="6"
+          cy="99"
+          r="5"
+          fill="#f1e05a"
+        />
+
+        <text
+          x="19"
+          y="103"
+          class="lang"
+        >JavaScript 44.46%</text>
         
-        <defs>
-          
-          
-        </defs>
+        <circle
+          cx="174"
+          cy="99"
+          r="5"
+          fill="#3572A5"
+        />
+
+        <text
+          x="187"
+          y="103"
+          class="lang"
+        >Python 27.86%</text>
+        
+        <circle
+          cx="6"
+          cy="128"
+          r="5"
+          fill="#3178c6"
+        />
+
+        <text
+          x="19"
+          y="132"
+          class="lang"
+        >TypeScript 12.01%</text>
+        
+        <circle
+          cx="174"
+          cy="128"
+          r="5"
+          fill="#563d7c"
+        />
+
+        <text
+          x="187"
+          y="132"
+          class="lang"
+        >CSS 3.53%</text>
+        
+        <circle
+          cx="6"
+          cy="157"
+          r="5"
+          fill="#00ADD8"
+        />
+
+        <text
+          x="19"
+          y="161"
+          class="lang"
+        >Go 3.21%</text>
+        
+        <circle
+          cx="174"
+          cy="157"
+          r="5"
+          fill="#f34b7d"
+        />
+
+        <text
+          x="187"
+          y="161"
+          class="lang"
+        >C++ 3.09%</text>
         
 
-        <rect
-          data-testid="card-bg"
-          class="card-bg"
-          x="0.5"
-          y="0.5"
-          rx="4.5"
-          height="99%"
-          stroke="#30363d"
-          width="299"
-          fill="#0d1117"
-          stroke-opacity="1"
-        />
-
-        
-      <g
-        data-testid="card-title"
-        transform="translate(25, 35)"
-      >
-        <g transform="translate(0, 0)">
-      <text
-        x="0"
-        y="0"
-        class="header"
-        data-testid="header"
-      >Most Used Languages</text>
-    </g>
-      </g>
-    
-
-        <g
-          data-testid="main-card-body"
-          transform="translate(0, 55)"
-        >
-          
-    <svg data-testid="lang-items" x="25">
-      <g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms">
-      <text data-testid="lang-name" x="2" y="15" class="lang-name">JavaScript</text>
-      <text x="215" y="34" class="lang-name">47.22%</text>
-      
-    <svg width="205" x="0" y="25">
-      <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="205" height="8"></rect>
-      <svg data-testid="lang-progress" width="47.2204289140316%">
-        <rect
-            height="8"
-            fill="#f1e05a"
-            rx="5" ry="5" x="0" y="0"
-            class="lang-progress"
-            style="animation-delay: 750ms;"
-        />
-      </svg>
-    </svg>
-  
-    </g>
-  </g><g transform="translate(0, 40)">
-    <g class="stagger" style="animation-delay: 600ms">
-      <text data-testid="lang-name" x="2" y="15" class="lang-name">Python</text>
-      <text x="215" y="34" class="lang-name">29.59%</text>
-      
-    <svg width="205" x="0" y="25">
-      <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="205" height="8"></rect>
-      <svg data-testid="lang-progress" width="29.58778981538428%">
-        <rect
-            height="8"
-            fill="#3572A5"
-            rx="5" ry="5" x="0" y="0"
-            class="lang-progress"
-            style="animation-delay: 900ms;"
-        />
-      </svg>
-    </svg>
-  
-    </g>
-  </g><g transform="translate(0, 80)">
-    <g class="stagger" style="animation-delay: 750ms">
-      <text data-testid="lang-name" x="2" y="15" class="lang-name">TypeScript</text>
-      <text x="215" y="34" class="lang-name">12.75%</text>
-      
-    <svg width="205" x="0" y="25">
-      <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="205" height="8"></rect>
-      <svg data-testid="lang-progress" width="12.753223405765194%">
-        <rect
-            height="8"
-            fill="#3178c6"
-            rx="5" ry="5" x="0" y="0"
-            class="lang-progress"
-            style="animation-delay: 1050ms;"
-        />
-      </svg>
-    </svg>
-  
-    </g>
-  </g><g transform="translate(0, 120)">
-    <g class="stagger" style="animation-delay: 900ms">
-      <text data-testid="lang-name" x="2" y="15" class="lang-name">CSS</text>
-      <text x="215" y="34" class="lang-name">3.75%</text>
-      
-    <svg width="205" x="0" y="25">
-      <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="205" height="8"></rect>
-      <svg data-testid="lang-progress" width="3.749231222728877%">
-        <rect
-            height="8"
-            fill="#663399"
-            rx="5" ry="5" x="0" y="0"
-            class="lang-progress"
-            style="animation-delay: 1200ms;"
-        />
-      </svg>
-    </svg>
-  
-    </g>
-  </g><g transform="translate(0, 160)">
-    <g class="stagger" style="animation-delay: 1050ms">
-      <text data-testid="lang-name" x="2" y="15" class="lang-name">Go</text>
-      <text x="215" y="34" class="lang-name">3.41%</text>
-      
-    <svg width="205" x="0" y="25">
-      <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="205" height="8"></rect>
-      <svg data-testid="lang-progress" width="3.405110139853778%">
-        <rect
-            height="8"
-            fill="#00ADD8"
-            rx="5" ry="5" x="0" y="0"
-            class="lang-progress"
-            style="animation-delay: 1350ms;"
-        />
-      </svg>
-    </svg>
-  
-    </g>
-  </g><g transform="translate(0, 200)">
-    <g class="stagger" style="animation-delay: 1200ms">
-      <text data-testid="lang-name" x="2" y="15" class="lang-name">C++</text>
-      <text x="215" y="34" class="lang-name">3.28%</text>
-      
-    <svg width="205" x="0" y="25">
-      <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="205" height="8"></rect>
-      <svg data-testid="lang-progress" width="3.2842165022362777%">
-        <rect
-            height="8"
-            fill="#f34b7d"
-            rx="5" ry="5" x="0" y="0"
-            class="lang-progress"
-            style="animation-delay: 1500ms;"
-        />
-      </svg>
-    </svg>
-  
-    </g>
-  </g>
-    </svg>
-  
-        </g>
-      </svg>
-    
+</svg>
