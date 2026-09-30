@@ -22,12 +22,11 @@
     />
   </picture>
 </p>
-
 ## 📊 GitHub Stats
 
 <table align="center">
   <tr>
-    <td align="center" valign="middle">
+    <td align="center">
       <img
         src="./profile/stats.svg"
         width="400"
@@ -35,7 +34,7 @@
       />
     </td>
 
-    <td align="center" valign="middle">
+    <td align="center">
       <img
         src="./profile/top-langs.svg"
         width="300"
