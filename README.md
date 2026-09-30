@@ -22,24 +22,19 @@
     />
   </picture>
 </p>
+
 ## 📊 GitHub Stats
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img
-        src="./profile/stats.svg"
-        width="400"
-        alt="GitHub Stats"
-      />
-    </td>
-
-    <td align="center">
-      <img
-        src="./profile/top-langs.svg"
-        width="300"
-        alt="Most Used Languages"
-      />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img
+    src="./profile/stats.svg"
+    width="400"
+    alt="GitHub Stats"
+  />
+  &nbsp;&nbsp;&nbsp;
+  <img
+    src="./profile/top-langs.svg"
+    width="300"
+    alt="Most Used Languages"
+  />
+</p>
