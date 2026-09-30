@@ -37,14 +37,6 @@
 
     <td align="center" valign="middle">
       <img
-        src="./profile/github-logo.svg"
-        width="90"
-        alt="GitHub"
-      />
-    </td>
-
-    <td align="center" valign="middle">
-      <img
         src="./profile/top-langs.svg"
         width="300"
         alt="Most Used Languages"
