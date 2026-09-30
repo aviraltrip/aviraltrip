@@ -23,24 +23,32 @@
   </picture>
 </p>
 
-## 📊 GitHub Stats
+## GitHub Stats
 
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/aviraltrip/aviraltrip/main/profile/stats.svg"
-    height="195"
-    alt="GitHub Stats"
-  />
+<table align="center">
+  <tr>
+    <td align="center" valign="middle">
+      <img
+        src="https://raw.githubusercontent.com/aviraltrip/aviraltrip/main/profile/stats.svg"
+        width="400"
+        alt="GitHub Stats"
+      />
+    </td>
 
-  <img
-    src="https://raw.githubusercontent.com/aviraltrip/aviraltrip/main/profile/github-logo.svg"
-    width="90"
-    alt="GitHub"
-  />
+    <td align="center" valign="middle" width="120">
+      <img
+        src="https://raw.githubusercontent.com/aviraltrip/aviraltrip/main/profile/github-logo.svg"
+        width="90"
+        alt="GitHub"
+      />
+    </td>
 
-  <img
-    src="https://raw.githubusercontent.com/aviraltrip/aviraltrip/main/profile/top-langs.svg"
-    height="195"
-    alt="Most Used Languages"
-  />
-</p>
+    <td align="center" valign="middle">
+      <img
+        src="https://raw.githubusercontent.com/aviraltrip/aviraltrip/main/profile/top-langs.svg"
+        width="300"
+        alt="Most Used Languages"
+      />
+    </td>
+  </tr>
+</table>
