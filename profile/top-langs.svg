@@ -45,7 +45,7 @@
     fill="#30363d"
   />
 
-  <rect x="6.00" y="64" width="128.03" height="9" fill="#f1e05a" rx="5" ry="5"/><rect x="134.03" y="64" width="80.22" height="9" fill="#3572A5"/><rect x="214.25" y="64" width="34.58" height="9" fill="#3178c6"/><rect x="248.83" y="64" width="10.17" height="9" fill="#563d7c"/><rect x="259.00" y="64" width="9.23" height="9" fill="#00ADD8"/><rect x="268.23" y="64" width="25.77" height="9" fill="#f34b7d"/>
+  <rect x="6.00" y="64" width="111.18" height="9" fill="#3572A5" rx="5" ry="5"/><rect x="117.18" y="64" width="106.27" height="9" fill="#f1e05a"/><rect x="223.44" y="64" width="32.89" height="9" fill="#3178c6"/><rect x="256.34" y="64" width="8.44" height="9" fill="#563d7c"/><rect x="264.77" y="64" width="7.66" height="9" fill="#00ADD8"/><rect x="272.44" y="64" width="21.56" height="9" fill="#f34b7d"/>
 
   <!-- Language labels -->
   
@@ -53,27 +53,27 @@
           cx="6"
           cy="99"
           r="5"
-          fill="#f1e05a"
+          fill="#3572A5"
         />
 
         <text
           x="19"
           y="103"
           class="lang"
-        >JavaScript 44.46%</text>
+        >Python 38.60%</text>
         
         <circle
           cx="174"
           cy="99"
           r="5"
-          fill="#3572A5"
+          fill="#f1e05a"
         />
 
         <text
           x="187"
           y="103"
           class="lang"
-        >Python 27.86%</text>
+        >JavaScript 36.90%</text>
         
         <circle
           cx="6"
@@ -86,7 +86,7 @@
           x="19"
           y="132"
           class="lang"
-        >TypeScript 12.01%</text>
+        >TypeScript 11.42%</text>
         
         <circle
           cx="174"
@@ -99,7 +99,7 @@
           x="187"
           y="132"
           class="lang"
-        >CSS 3.53%</text>
+        >CSS 2.93%</text>
         
         <circle
           cx="6"
@@ -112,7 +112,7 @@
           x="19"
           y="161"
           class="lang"
-        >Go 3.21%</text>
+        >Go 2.66%</text>
         
         <circle
           cx="174"
@@ -125,7 +125,7 @@
           x="187"
           y="161"
           class="lang"
-        >C++ 3.09%</text>
+        >C++ 2.61%</text>
         
 
 </svg>
