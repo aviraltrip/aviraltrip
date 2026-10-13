@@ -4,4 +4,4 @@
 
 **Tech Stack:** React · Next.js · TypeScript · Node.js · Express.js · Python · FastAPI · C/C++ · LangChain · MongoDB · PostgreSQL · Redis
 
-**Currently Learning:** Golang · LangGraph 
+**Currently Learning:** Go · LangGraph 
